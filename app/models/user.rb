@@ -8,8 +8,8 @@ class User < ActiveRecord::Base
   
   def save_with_payment
     if valid?
-      customer = Stripe::Customer.create(description: email, plan: plan_id, card: stripe_card_token) #Send info to stripe and charge customer, reutrns cust object
-      self.stripe_custommer_token = customer.id #Set the customer token in the database
+      customer = Stripe::Customer.create(description: email, plan: plan_id, source: stripe_card_token)
+            self.stripe_customer_token = customer.id #Set the customer token in the database
       save!
     end
   end
