@@ -1,29 +1,5 @@
 == README
 
-Coder Manual Project Application
-Subscription-based web application
-http://codermanual.com
+This is a Coder Manual Project Application
+It's a Subscription-based web application that i worked on while learning Ruby on Rails
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
